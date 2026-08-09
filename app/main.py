@@ -5,7 +5,7 @@ from typing import Self
 class CleanUpFile:
 
     def __init__(self, filename: str) -> None:
-       self.filename = filename
+        self.filename = filename
 
     def __enter__(self) -> Self:
         return self
